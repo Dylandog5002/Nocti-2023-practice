@@ -35,6 +35,13 @@ color:#FAF0CA;
 text-decoration: underline;
 }
 
+
+#container{
+   text-align:center;
+   font-size:2.5em;
+}
+}
+
 table{
     border: 0.1em solid #FAF0CA;
     border-collapse: collapse;
