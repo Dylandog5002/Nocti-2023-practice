@@ -52,8 +52,8 @@ table{
 }
 
 .hNav {
-  text-align: center;
-	padding: .8em;
+
+	padding: 0%;
 }
 
 .hNav ul {
@@ -75,5 +75,4 @@ table{
 
 .hNav a:hover {
     color: #734F2F;
-    text-decoration: underline;
 }
