@@ -50,3 +50,30 @@ table{
     margin-right: auto;
     width: 100%;
 }
+
+.hNav {
+  text-align: center;
+	padding: .8em;
+}
+
+.hNav ul {
+    display: block;
+    padding-left: 150px;
+}
+
+.hNav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.hNav a {
+    color:#E4F2EA;
+    font-size: 1.7em;
+    padding: 0 1.3em;
+    text-decoration: none;
+}
+
+.hNav a:hover {
+    color: #734F2F;
+    text-decoration: underline;
+}
