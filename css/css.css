@@ -173,3 +173,8 @@ div {
     text-align: center;
 
   }
+.frame {
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
+}
