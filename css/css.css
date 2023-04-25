@@ -1,0 +1,319 @@
+body{
+padding: 0%;
+margin: 0%;
+background-color:#0D3B66;
+font-size: 1em;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,a,blockquote{
+padding: 0%;
+margin: 0%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center;
+}
+
+header{
+   background-color:#F4D35E;
+
+   padding: 800px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 20% 20%;
+}
+
+nav{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.25em;
+font-weight: bold;
+
+margin-top: -1.5em ;
+}
+
+a :hover{
+color:#FAF0CA;
+text-decoration: underline;
+}
+
+
+#container{
+   text-align:center;
+   font-size:5em;
+   padding:0%;
+}
+}
+
+table{
+    border: 0.1em solid #FAF0CA;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hNav {
+
+	padding: 0%;
+}
+
+.hNav ul {
+    display: block;
+    padding-left: 150px;
+}
+
+.hNav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.hNav a {
+	text-align: left;
+    color:#E4F2EA;
+    font-size: 1.7em;
+    padding: 0 1.3em;
+    text-decoration: none;
+}
+
+.hNav a:hover {
+    color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #FAF0CA;
+}
+.form-style-6 h1{
+	background: #FAF0CA;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background:black;
+	border-bottom: 2px solid black;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background:#F4D35E;
+}
+
+div {
+    cursor: pointer;
+    margin: auto;
+    font-size: 10vmin;
+    transition: font-weight 250ms ease-in-out;
+    padding: 3%;
+  }
+  
+  div:hover {
+    font-weight: 900;
+  }
+  iframe{
+    text-align: center;
+
+  }
+/* Set additional styling options for the columns*/
+.column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+	text-align: center;
+    }
+
+	/* Style for images within the figure element */
+figure img {
+	background-color: #1D1D1C;
+	display: inline;
+	height: 8em;
+	width: 28%;
+	margin: 1%;
+	padding: 1%;
+}
+
+/* Style for anchor elements within the figure element */
+figure a {
+	background-color: transparent;
+	padding: 0;
+	text-decoration: none;
+}
+
+.text1{
+	text-align: left;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+  }
+  
+  .grid img {
+	width: 100%;
+  }
+  /* power holding the image and the text */
+.power {
+    position: relative;
+    text-align: center;
+    color: gold;
+	font-size: xx-small;
+  }
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+/* Bottom left text */
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+  }
+
+  .column {
+	float: left;
+	width: 33.33%;
+	color: black;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .o{
+    width: available;
+    height: available;
+}
+
+.leftpane{
+    width: 25%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: left;
+    background-color: rosybrown;
+    border-collapse: collapse;
+	font-size: small;
+  text-align: center;
+  position: top;
+}
+
+.middlepane{
+   width: 50%;
+   min-width: 800px;
+   height: available;
+   min-height: 650px;
+   float: left;
+   background-color: royalblue;
+   border-collapse: collapse;
+   font-size: small;
+   text-align: center;
+   position: top;
+}
+
+.rightpane{
+    width: available;
+    height: available;
+    position: relative;
+    margin-left: 75%;
+    background-color: yellow;
+    border-collapse: collapse;
+	font-size: small;
+  text-align: center;
+  position: top;
+}
